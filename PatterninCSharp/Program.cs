@@ -2,8 +2,9 @@
 using PatterninCSharp;
 
 
-
 AllPattern.RightUpperAngleTriangle();
+AllPattern.RightLowerAngleTriangle();
+AllPattern.LeftUpperAngleTriangle();
 AllPattern.LeftLowerAngleTriangle();
 AllPattern.SquarePrint();
 

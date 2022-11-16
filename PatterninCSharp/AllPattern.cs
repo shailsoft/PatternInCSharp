@@ -19,9 +19,7 @@ namespace PatterninCSharp
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
         }
-
         public static void LeftLowerAngleTriangle()
         {
             int row, col;
@@ -33,20 +31,50 @@ namespace PatterninCSharp
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
         }
-        public static void RightUpperAngleTriangle()
+        public static void LeftUpperAngleTriangle()
         {
             int row, col;
             for (row = 1; row <= 10; row++)
             {
-                for (col = row; col <10; col++)
+                for (col = row; col < 10; col++)
                 {
                     Console.Write("* ");
                 }
                 Console.WriteLine();
             }
-            Console.ReadLine();
+        }
+        public static void RightLowerAngleTriangle()
+        {
+            int row, col, space;
+            for (row = 1; row <= 10; row++)
+            {
+                for (space = row; space < 10; space++)
+                {
+                    Console.Write(" ");
+                }
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
+        public static void RightUpperAngleTriangle()
+        {
+            int row, col, space;
+            for (row = 1; row <= 10; row++)
+            {
+                for (space = row; space < 10; space++)
+                {
+                    Console.Write(" ");
+                }
+                for (col = 1; col <= row; col++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
