@@ -1,0 +1,15 @@
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.exe
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.deps.json
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.runtimeconfig.json
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.pdb
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.csproj.AssemblyReference.cache
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.AssemblyInfoInputs.cache
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.AssemblyInfo.cs
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.csproj.CoreCompileInputs.cache
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\refint\PatterninCSharp.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.pdb
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.genruntimeconfig.cache
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\ref\PatterninCSharp.dll
