@@ -3,7 +3,9 @@ using PatterninCSharp;
 
 
 
-Square.SquarePrint();
+AllPattern.RightUpperAngleTriangle();
+AllPattern.LeftLowerAngleTriangle();
+AllPattern.SquarePrint();
 
 
 #region Predefine
