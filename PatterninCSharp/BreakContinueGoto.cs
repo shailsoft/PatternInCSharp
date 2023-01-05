@@ -8,5 +8,6 @@ namespace PatterninCSharp
 {
     public class BreakContinueGoto
     {
+        //
     }
 }
