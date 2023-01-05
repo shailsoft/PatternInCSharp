@@ -4,7 +4,6 @@ using PatterninCSharp;
 BreakContinueGoto.Break();
 BreakContinueGoto.Continue();
 BreakContinueGoto.Goto();
-Console.ReadLine();
 AllPattern.RightUpperAngleTriangle();
 AllPattern.RightLowerAngleTriangle();
 AllPattern.LeftUpperAngleTriangle();
