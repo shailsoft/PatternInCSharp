@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Pattern\\PatterninCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
+      "projectUniqueName": "D:\\Projects\\ShailendraRunning\\PatternInCSharp\\PatternInCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
       "projectName": "PatterninCSharp",
-      "projectPath": "D:\\Projects\\Pattern\\PatterninCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
+      "projectPath": "D:\\Projects\\ShailendraRunning\\PatternInCSharp\\PatternInCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
       "packagesPath": "C:\\Users\\skblk\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Pattern\\PatterninCSharp\\PatterninCSharp\\obj\\",
+      "outputPath": "D:\\Projects\\ShailendraRunning\\PatternInCSharp\\PatternInCSharp\\PatterninCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\skblk\\AppData\\Roaming\\NuGet\\NuGet.Config",
