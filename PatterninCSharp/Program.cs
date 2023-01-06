@@ -1,6 +1,8 @@
 ﻿
 using PatterninCSharp;
 
+DictionaryList dicObj = new DictionaryList();
+dicObj.DictonaryHash();
 BreakContinueGoto.Break();
 BreakContinueGoto.Continue();
 BreakContinueGoto.Goto();
