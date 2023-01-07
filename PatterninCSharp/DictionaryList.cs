@@ -12,6 +12,7 @@ namespace PatterninCSharp
     {
         public void DictonaryHash()
         {
+           
             // hashtable don't maintain the order 
             // it it come from using System.Collections.Generic;
             Dictionary<string, string> objDict = new Dictionary<string, string>();
@@ -19,6 +20,7 @@ namespace PatterninCSharp
             objDict.Add("b2", "C++");
             objDict.Add("a3", "C#");
             objDict.Add("b1", "Net");
+
 
             foreach (KeyValuePair<string, string> element in objDict)
             {
