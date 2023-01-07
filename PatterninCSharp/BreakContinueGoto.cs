@@ -39,7 +39,7 @@ namespace PatterninCSharp
         public static void Goto()
         {
             // {{Goto}} this is use call again
-            // Result:  1, 2, 3, 4, 6, 7, 8, 9, 10
+            // Result:  1, 2, 3, 4, 6, 7, 8, 9, 10 and next answer : this is got methos
             for (int i = 1; i <= 10; i++)
             {
                 if (i == 5)

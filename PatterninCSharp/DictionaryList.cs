@@ -13,7 +13,7 @@ namespace PatterninCSharp
         public void DictonaryHash()
         {
            
-            // hashtable don't maintain the order 
+            // dictonary maintain the order 
             // it it come from using System.Collections.Generic;
             Dictionary<string, string> objDict = new Dictionary<string, string>();
             objDict.Add("a1", "C");
@@ -43,8 +43,6 @@ namespace PatterninCSharp
             d.Add(2, 89);
             d.Add(3, 77);
             d.Add(4, 88);
-
-            // Dictionary elements 
             #endregion
             Console.WriteLine("Dictionaly elements: " + d.Count);
         }

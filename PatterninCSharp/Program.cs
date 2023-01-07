@@ -1,6 +1,10 @@
 ﻿
 using PatterninCSharp;
 
+ReversCharchors.ReversChar();
+ReversCharchors.ReversWordWithoutChngPosition();
+Console.ReadLine();
+
 DictionaryList dicObj = new DictionaryList();
 dicObj.DictonaryHash();
 BreakContinueGoto.Break();
