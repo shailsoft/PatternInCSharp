@@ -62,6 +62,7 @@ namespace PatterninCSharp
         }
         public static void RightUpperAngleTriangle()
         {
+            //
             int row, col, space;
             for (row = 1; row <= 10; row++)
             {

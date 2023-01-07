@@ -2,3 +2,4 @@ bin/
 *.obj
 .vs/
 .vs/PatterninCSharp/v17/.suo
+*.vs/
