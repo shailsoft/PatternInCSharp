@@ -10,9 +10,8 @@ namespace PatterninCSharp
 {
     internal class DictionaryList
     {
-        public void DictonaryHash()
+        public void Dictonary()
         {
-           
             // dictonary maintain the order 
             // it it come from using System.Collections.Generic;
             Dictionary<string, string> objDict = new Dictionary<string, string>();
@@ -20,18 +19,19 @@ namespace PatterninCSharp
             objDict.Add("b2", "C++");
             objDict.Add("a3", "C#");
             objDict.Add("b1", "Net");
-
-
             foreach (KeyValuePair<string, string> element in objDict)
             {
-                Console.WriteLine("Key:- {0} and values:- {1}", element.Key,element.Value);
+                Console.WriteLine("Key:- {0} and values:- {1}", element.Key, element.Value);
             }
+        }
+        public void Hashtable()
+        {
             // hashtable don't maintain the order 
             // it it come from using System.Collections;
             Hashtable hashtable = new Hashtable();
             hashtable.Add("A1", "Welcome");
             hashtable.Add("A2", 1);
-            hashtable.Add("A3", "Shailendra Kumar"); 
+            hashtable.Add("A3", "Shailendra Kumar");
 
             foreach (DictionaryEntry elem in hashtable)
             {
@@ -45,6 +45,8 @@ namespace PatterninCSharp
             d.Add(4, 88);
             #endregion
             Console.WriteLine("Dictionaly elements: " + d.Count);
+
         }
+
     }
 }
