@@ -1,9 +1,20 @@
-﻿
-using PatterninCSharp;
+﻿using PatterninCSharp;
+
+Console.ReadLine();
+
+#region String And StringBuilder
+StringAndStringBuilder.String();
+StringAndStringBuilder.StringBuilders(); 
+#endregion
+
+#region NullCoalescing Operator
+NullCoalescingOperator.NullCoalseing(); 
+#endregion
+
 #region Palindrome string
 PalindromeString.PalindromeStringOrNot();
 #endregion
-Console.ReadLine();
+
 #region Swapping numbers
 SwappingTwoNumbers.SwappingTwoNoWithoutThirdVariable();
 SwappingTwoNumbers.SwappingTwoNoWithoutThirdVariable1();
