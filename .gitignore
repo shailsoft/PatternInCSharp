@@ -3,4 +3,5 @@ bin/
 .vs/
 .vs/PatterninCSharp/v17/.suo
 *.vs/
+.vs
 
