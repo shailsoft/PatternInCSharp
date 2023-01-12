@@ -9,6 +9,24 @@ namespace PatterninCSharp
 {
     public class StringAndStringBuilder
     {
+        public static void SpltStringAfterNComma()
+        {
+            string strInput = "mahesh,shailendra,ramesh,kamlesh,mukesh,manish,baboo,ssona,majno,non,gggg";
+            int splitSize = 4;
+            string[] strArr = strInput.Split(',');
+
+            var splitAfterNsize = strInput.Split(',').Select((x, i) => new { Index = i, Value = x })
+              .GroupBy(x => x.Index / splitSize)
+              .Select(x => x.Select(v => v.Value).ToList())
+              .ToList();
+        }
+        public static void SpltStringAfterNCommaByChunk()
+        {
+            string strInput = "mahesh,shailendra,ramesh,kamlesh,mukesh,manish,baboo,ssona,majno,non,gggg";
+            string[] spitArry = strInput.Split(',');
+            const int page_Size = 4;
+            var chunks = spitArry.Chunk(page_Size);
+        }
         public static void String()
         {
             // string are immutable

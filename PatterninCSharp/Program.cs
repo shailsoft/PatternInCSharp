@@ -1,11 +1,14 @@
 ﻿using PatterninCSharp;
 
-Console.ReadLine();
+
 
 #region String And StringBuilder
+StringAndStringBuilder.SpltStringAfterNComma();
+StringAndStringBuilder.SpltStringAfterNCommaByChunk();
 StringAndStringBuilder.String();
-StringAndStringBuilder.StringBuilders(); 
+StringAndStringBuilder.StringBuilders();
 #endregion
+Console.ReadLine();
 
 #region NullCoalescing Operator
 NullCoalescingOperator.NullCoalseing(); 
