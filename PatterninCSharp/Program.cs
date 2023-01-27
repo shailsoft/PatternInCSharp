@@ -1,5 +1,5 @@
 ﻿using PatterninCSharp;
-
+ReversCharchors.ReverseNumber();
 
 
 #region String And StringBuilder

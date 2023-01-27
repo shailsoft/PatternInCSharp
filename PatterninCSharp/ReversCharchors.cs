@@ -12,19 +12,23 @@ namespace PatterninCSharp
         {
             //Input: s = “i am a developer”
             //Output: s = “repoleved a ma i”
-
+            #region First way
             string strVal = "i am a developer", reversValue = String.Empty;
-            //Console.WriteLine("Enter the Vlaues");
-            //strVal =Console.ReadLine();
-
             for (int i = strVal.Length - 1; i >= 0; i--)
             {
                 reversValue = reversValue + strVal[i];
                 // reversValue += strVal[i]; we can use both
             }
             Console.WriteLine("Your num ={0}", reversValue);
-
-            
+            #endregion
+            #region Second way
+            string inputstring = string.Empty, outputstring = string.Empty;
+            inputstring = Console.ReadLine();
+            char[] chars = inputstring.ToCharArray();
+            Array.Reverse(chars);
+            outputstring = new string(chars);
+            Console.WriteLine(outputstring);
+            #endregion
         }
         public static void ReversCharWithoutChngPosition()
         {
@@ -61,8 +65,8 @@ namespace PatterninCSharp
             Array.Reverse(a);
             for (int i = 0; i <= a.Length - 1; i++)
             {
-                result = result + a[i] + "" + ' '; 
-                
+                result = result + a[i] + "" + ' ';
+
             }
             Console.Write(result);
 
@@ -100,6 +104,19 @@ namespace PatterninCSharp
                 Console.Write("{0} is not Prime Number\n", +num);
             }
             Console.ReadLine();
+        }
+        public static void ReverseNumber()
+        {
+            int inputNumber, reverseNumber = 0;
+            inputNumber = int.Parse(Console.ReadLine());
+
+            while (inputNumber != 0)
+            {
+                reverseNumber = reverseNumber * 10;
+                reverseNumber = reverseNumber + inputNumber % 10;
+                inputNumber = inputNumber / 10;
+            }
+            Console.WriteLine("The reverse number is {0}", reverseNumber);
         }
     }
 }
