@@ -1,6 +1,20 @@
 ﻿using PatterninCSharp;
-ReversCharchors.ReverseNumber();
 
+AllPattern.NaturalNumbers();
+
+Console.ReadLine();
+
+#region FactorialNumber
+FactorialNumber.FactorialGivenNumber(); 
+#endregion
+
+#region FibonacciSeries
+FibonacciSeries.Fibonacciseries(); 
+#endregion
+
+#region PrimeNumOrNot
+PrimeNumberOrNot.PrimeNumOrNot(); 
+#endregion
 
 #region String And StringBuilder
 StringAndStringBuilder.SpltStringAfterNComma();
@@ -8,7 +22,6 @@ StringAndStringBuilder.SpltStringAfterNCommaByChunk();
 StringAndStringBuilder.String();
 StringAndStringBuilder.StringBuilders();
 #endregion
-Console.ReadLine();
 
 #region NullCoalescing Operator
 NullCoalescingOperator.NullCoalseing(); 
@@ -27,6 +40,7 @@ SwappingTwoNumbers.SwappingTwoNoWithoutThirdVariable1();
 ReversCharchors.ReversChar();
 ReversCharchors.ReversWordWithoutChngPosition();
 ReversCharchors.ReversCharWithoutChngPosition();
+ReversCharchors.ReverseNumberSecWay();
 #endregion
 
 #region Dictionary and Hash
@@ -47,6 +61,9 @@ AllPattern.RightLowerAngleTriangle();
 AllPattern.LeftUpperAngleTriangle();
 AllPattern.LeftLowerAngleTriangle();
 AllPattern.SquarePrint();
+AllPattern.PyramidWithNumber();
+AllPattern.PyramidUsingAsterisk();
+AllPattern.Diamond();
 #endregion
 
 //Console.ReadLine();

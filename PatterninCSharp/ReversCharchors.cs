@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -118,5 +119,22 @@ namespace PatterninCSharp
             }
             Console.WriteLine("The reverse number is {0}", reverseNumber);
         }
+        //Write a program in C# Sharp to display the number in reverse order. Go to the editor Test Data:
+        //Input a number: 12345
+        public static void ReverseNumberSecWay()
+        {
+            int num, r, reverse = 0, t;
+            Console.WriteLine("Display the number in reverse order:\n--------------------------------------");
+            Console.Write("Input a number: ");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            for (t = num; t != 0; t = t / 10)
+            {
+                r = t % 10;
+                reverse = reverse * 10 + r;
+            }
+            Console.Write("The number in reverse order is : {0} \n", reverse);
+        }
     }
 }
+
