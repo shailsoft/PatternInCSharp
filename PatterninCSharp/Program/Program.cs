@@ -1,19 +1,52 @@
-﻿using PatterninCSharp;
+﻿using PatterninCSharp.Opps;
+using PatterninCSharp.Program;
+
+BabulSort.SortData();
+Console.ReadLine();
+MethodOverRiding baseClass = new MethodOverRiding();
+MethodOverRidingDerivedClass DerivedClass = new MethodOverRidingDerivedClass();
+MethodOverRiding BaseClassWithDerive = new MethodOverRidingDerivedClass();
+
+
+baseClass.Method1();
+baseClass.Method2();
+
+// derive
+DerivedClass.Method1();
+DerivedClass.Method2();
+
+// derive
+BaseClassWithDerive.Method1();
+BaseClassWithDerive.Method2();
+
+
+
+
+MethodOverload overLoadingOverRiding = new MethodOverload();
+overLoadingOverRiding.Add(100, 1);
+overLoadingOverRiding.Add(100, "Shailendra");
+Square.SquarePrint();
+
+
+
+
+StringAndStringBuilder.StringBuilders();
+
 
 AllPattern.NaturalNumbers();
 
-Console.ReadLine();
+
 
 #region FactorialNumber
-FactorialNumber.FactorialGivenNumber(); 
+FactorialNumber.FactorialGivenNumber();
 #endregion
 
 #region FibonacciSeries
-FibonacciSeries.Fibonacciseries(); 
+FibonacciSeries.Fibonacciseries();
 #endregion
 
 #region PrimeNumOrNot
-PrimeNumberOrNot.PrimeNumOrNot(); 
+PrimeNumberOrNot.PrimeNumOrNot();
 #endregion
 
 #region String And StringBuilder
@@ -24,7 +57,7 @@ StringAndStringBuilder.StringBuilders();
 #endregion
 
 #region NullCoalescing Operator
-NullCoalescingOperator.NullCoalseing(); 
+NullCoalescingOperator.NullCoalseing();
 #endregion
 
 #region Palindrome string

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PatterninCSharp
+namespace PatterninCSharp.Program
 {
     public static class ReversCharchors
     {
@@ -14,7 +14,7 @@ namespace PatterninCSharp
             //Input: s = “i am a developer”
             //Output: s = “repoleved a ma i”
             #region First way
-            string strVal = "i am a developer", reversValue = String.Empty;
+            string strVal = "i am a developer", reversValue = string.Empty;
             for (int i = strVal.Length - 1; i >= 0; i--)
             {
                 reversValue = reversValue + strVal[i];
@@ -30,6 +30,16 @@ namespace PatterninCSharp
             outputstring = new string(chars);
             Console.WriteLine(outputstring);
             #endregion
+
+            char[] charArray = strVal.ToCharArray();
+            for (int i = 0, j = strVal.Length - 1; i < j; i++, j--)
+            {
+                charArray[i] = strVal[j];
+                charArray[j] = strVal[i];
+            }
+            string reversedstring = new string(charArray);
+            Console.WriteLine(reversedstring);
+
         }
         public static void ReversCharWithoutChngPosition()
         {

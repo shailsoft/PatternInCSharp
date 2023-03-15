@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PatterninCSharp
+namespace PatterninCSharp.Program
 {
     public static class AllPattern
     {
@@ -45,6 +45,19 @@ namespace PatterninCSharp
                 }
                 Console.WriteLine();
             }
+
+
+            //          * * * * * * * * *
+            //          * * * * * * * *
+            //          * * * * * * * 
+            //          * * * * * *
+            //          * * * * * 
+            //          * * * * 
+            //          * * * 
+            //          * *
+            //          *
+
+
         }
         public static void RightLowerAngleTriangle()
         {
@@ -78,6 +91,20 @@ namespace PatterninCSharp
                 }
                 Console.WriteLine();
             }
+
+
+
+            //         *
+            //        **
+            //       ***
+            //      ****
+            //     *****
+            //    ******
+            //   *******
+            //  ********
+            // *********
+            //**********
+
         }
         //Write a program in C to display the pattern like a diamond.The pattern is as follows :
         public static void Diamond()
@@ -206,6 +233,49 @@ namespace PatterninCSharp
             //result
             //            Input number of rows : 10
             // 1 2 3 4 5 6 7 8 9 10
+        }
+        public static void LowerTringle()
+        {
+            for (int row = 1; row <= 10; row++)
+            {
+                for (int col = row; col <= 10; col++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
+
+            //      * * * * * * * * *
+            //      * * * * * * * * 
+            //      * * * * * * * 
+            //      * * * * * * 
+            //      * * * * * 
+            //      * * * * 
+            //      * * * 
+            //      * * 
+            //      *
+        }
+        public static void UpperTringle()
+        {
+            for (int row = 1; row <= 10; row++)
+            {
+                for (int col = 1; col < row; col++)
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine();
+            }
+
+            //       * 
+            //       * * 
+            //       * * * 
+            //       * * * * 
+            //       * * * * * 
+            //       * * * * * * 
+            //       * * * * * * * 
+            //       * * * * * * * * 
+            //       * * * * * * * * *
+
         }
     }
 }

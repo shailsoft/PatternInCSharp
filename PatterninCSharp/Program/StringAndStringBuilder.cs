@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PatterninCSharp
+namespace PatterninCSharp.Program
 {
     public class StringAndStringBuilder
     {
