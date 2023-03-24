@@ -11,7 +11,7 @@ namespace PatterninCSharp.Program
         public static void SortData()
         {
             int[] adata = { 12, 13, 2, -3, -12, 8, 15, 1, 6, 4, 8, 9 };
-            // result 
+            // result -12,-3,1,2,4,6,8,8,9,12,13,15,
             Console.WriteLine(adata);
             int swapNum = 0;
 

@@ -1,6 +1,35 @@
 ﻿using PatterninCSharp.Opps;
 using PatterninCSharp.Program;
 
+#region Singleton
+
+SingletonPattern si = SingletonPattern.GetInstance();
+SingletonPattern s2 = SingletonPattern.GetInstance();
+//SingletonPattern.OtherClass o = new SingletonPattern.OtherClass();
+
+if (si == s2)
+{
+    Console.WriteLine(si == s2);
+
+}
+Console.WriteLine(s2);
+
+#endregion
+
+
+
+Console.ReadLine();
+
+var sss =ExtensionMethod.Add(10, 5);
+var ssss =ExtensionMethod.Add(10,5).AddExtension();
+Console.ReadLine();
+
+JaggedArrayTest.JaggedArry();
+
+//Constructor defConst = new Constructor();
+//Constructor perConst = new Constructor(20);
+
+Console.ReadLine();
 BabulSort.SortData();
 Console.ReadLine();
 MethodOverRiding baseClass = new MethodOverRiding();

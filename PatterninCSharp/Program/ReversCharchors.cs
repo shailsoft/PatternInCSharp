@@ -39,7 +39,6 @@ namespace PatterninCSharp.Program
             }
             string reversedstring = new string(charArray);
             Console.WriteLine(reversedstring);
-
         }
         public static void ReversCharWithoutChngPosition()
         {
