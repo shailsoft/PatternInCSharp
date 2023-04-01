@@ -13,7 +13,7 @@ namespace PatterninCSharp.Program
             string? Item1 = null;
             string? Item2 = "Banana";
             string? Item3 = "Apple";
-            //string? Name = null;
+            //string? Name = null;c
             string? Res = Item1 ?? Item2 ?? Item3;
             Console.WriteLine(Res);
 

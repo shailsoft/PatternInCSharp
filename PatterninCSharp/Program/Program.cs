@@ -1,6 +1,16 @@
 ﻿using PatterninCSharp.Opps;
 using PatterninCSharp.Program;
+using static PatterninCSharp.Opps.EncapsulationAndAbstraction;
 
+#region Encapsulation & Abstraction
+BankAccount myAccount = new BankAccount(1000);
+myAccount.Deposit(500);
+Console.WriteLine("Balance: " + myAccount.GetBalance());
+
+myAccount.Withdraw(1200);
+Console.WriteLine("Balance: " + myAccount.GetBalance());
+#endregion
+Console.ReadLine();
 #region Singleton
 
 SingletonPattern si = SingletonPattern.GetInstance();
@@ -20,8 +30,8 @@ Console.WriteLine(s2);
 
 Console.ReadLine();
 
-var sss =ExtensionMethod.Add(10, 5);
-var ssss =ExtensionMethod.Add(10,5).AddExtension();
+var sss = ExtensionMethod.Add(10, 5);
+var ssss = ExtensionMethod.Add(10, 5).AddExtension();
 Console.ReadLine();
 
 JaggedArrayTest.JaggedArry();
