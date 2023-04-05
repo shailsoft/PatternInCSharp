@@ -22,6 +22,8 @@ namespace PatterninCSharp.Program
             }
             Console.WriteLine("Your num ={0}", reversValue);
             #endregion
+
+
             #region Second way
             string inputstring = string.Empty, outputstring = string.Empty;
             inputstring = Console.ReadLine();
@@ -30,6 +32,7 @@ namespace PatterninCSharp.Program
             outputstring = new string(chars);
             Console.WriteLine(outputstring);
             #endregion
+
 
             char[] charArray = strVal.ToCharArray();
             for (int i = 0, j = strVal.Length - 1; i < j; i++, j--)
@@ -91,6 +94,28 @@ namespace PatterninCSharp.Program
             string data = "i am a developer";
             var resw = (from obj in data select obj).GroupBy(x => x).First();
             Console.WriteLine("tha value is {0}" + resw);
+
+
+            /// remove duplicate from string
+            /// 
+            string inputString = "shailendrahh";
+            //result              shailendr
+            string resultString = string.Empty;
+            string duplicate = string.Empty;
+            for (int i = 0; i < inputString.Length; i++)
+            {
+                if (!resultString.Contains(inputString[i]))
+                {
+                    resultString += inputString[i];
+                }
+                else
+                {
+                    duplicate += inputString[i];
+                }
+            }
+            Console.WriteLine(resultString);
+            Console.WriteLine(duplicate);
+            Console.WriteLine(duplicate.Count());
         }
         public static void FindPrimeNumberOrNot()
         {

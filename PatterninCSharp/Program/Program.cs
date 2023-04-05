@@ -1,6 +1,31 @@
-﻿using PatterninCSharp.Opps;
+﻿using PatterninCSharp.LogicalProgram;
+using PatterninCSharp.Opps;
 using PatterninCSharp.Program;
 using static PatterninCSharp.Opps.EncapsulationAndAbstraction;
+
+ICar obj = new ICar();
+obj.get();
+
+LogicalProgram.NumberofAlphabetsDigits();
+int number = FindVowelsAndConsFromArray.FindVowelsWithHelpArray("Shailendra Kumar Bharyi");
+Console.ReadLine();
+
+LogicalProgram.CheckFirstNdSecNumberEqualToThird(1, 2, 3);
+LogicalProgram.ExistInArray(new[] { 1, 2, 9, 3 }, 3);
+
+LogicalProgram.CheckGivenNumber(3);
+Console.ReadLine();
+LogicalProgram.ReplaceFirstToLast("Shailendra");
+LogicalProgram.ReturnTripple(2, 3);
+LogicalProgram.ReturnTripple(2, 3);
+
+Console.ReadLine();
+
+
+FindAndWhere.FindAndWhereDiff();
+Console.ReadLine();
+
+
 
 #region Encapsulation & Abstraction
 BankAccount myAccount = new BankAccount(1000);
@@ -40,6 +65,7 @@ JaggedArrayTest.JaggedArry();
 //Constructor perConst = new Constructor(20);
 
 Console.ReadLine();
+BabulSort.ShortingString();
 BabulSort.SortData();
 Console.ReadLine();
 MethodOverRiding baseClass = new MethodOverRiding();

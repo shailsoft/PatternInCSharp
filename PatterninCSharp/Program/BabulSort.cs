@@ -31,5 +31,29 @@ namespace PatterninCSharp.Program
             }
 
         }
+        public static void ShortingString()
+        {
+            string str = "this is a string";
+            // result = a g h i i i n r s s s t t 
+            char[] arr1 = str.ToCharArray(0, str.Length);
+            char ch;
+
+            for (int i = 1; i < str.Length; i++)
+                for (int j = 0; j < str.Length - i; j++)
+
+                    if (arr1[j] > arr1[j + 1])
+                    {
+                        ch = arr1[j];
+                        arr1[j] = arr1[j + 1];
+                        arr1[j + 1] = ch;
+                    }
+            Console.Write("After sorting the string appears like : \n");
+            foreach (char c in arr1)
+            {
+                ch = c;
+                Console.Write("{0} ", ch);
+            }
+            Console.WriteLine("\n");
+        }
     }
 }
