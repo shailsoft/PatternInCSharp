@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "v9NplwEjCcQtxjDt2eKMBwl1JN11NuDLQmLd4zQng4ScfaOcS82qTPJ4TTZIShll/dCdV5WmmeYtzz8Wn0TueQ==",
+  "dgSpecHash": "oFXGK5N7HyesEjIqQtT5eYF3grDGihP3XiwSSz21USFvilYfJ0+o3jwI6XcvbL/X9sQyc/0oQfVom1u2nkQT2w==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\ShailendraRunning\\PatternInCSharp\\PatternInCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projects\\Pattern\\PatterninCSharp\\PatterninCSharp\\PatterninCSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skblk\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\skblk\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\skblk\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\skblk\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\skblk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\skblk\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

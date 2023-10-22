@@ -13,6 +13,12 @@ D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\refint\Patt
 D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.pdb
 D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.genruntimeconfig.cache
 D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\ref\PatterninCSharp.dll
+<<<<<<< HEAD
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\Pattern\PatterninCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.csproj.CopyComplete
+=======
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.exe
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.deps.json
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\bin\Debug\net6.0\PatterninCSharp.runtimeconfig.json
@@ -28,3 +34,4 @@ D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\ob
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.pdb
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\obj\Debug\net6.0\PatterninCSharp.genruntimeconfig.cache
 D:\Projects\ShailendraRunning\PatternInCSharp\PatternInCSharp\PatterninCSharp\obj\Debug\net6.0\ref\PatterninCSharp.dll
+>>>>>>> 1b20f760998af4f775848055974a35dafb71f500

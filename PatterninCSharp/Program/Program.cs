@@ -3,8 +3,9 @@ using PatterninCSharp.Opps;
 using PatterninCSharp.Program;
 using static PatterninCSharp.Opps.EncapsulationAndAbstraction;
 
-ICar obj = new ICar();
-obj.get();
+
+//ICar obj = new ICar();
+//obj.get();
 
 LogicalProgram.NumberofAlphabetsDigits();
 int number = FindVowelsAndConsFromArray.FindVowelsWithHelpArray("Shailendra Kumar Bharyi");
