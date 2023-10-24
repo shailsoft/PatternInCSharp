@@ -164,6 +164,8 @@ namespace PatterninCSharp.LogicalProgram
             int alp, digit, splch, i;
             alp = digit = splch = i = 0;
 
+            string ch = string.Empty;
+
             Console.Write("\n\nCount total number of alphabets, digits and special characters :\n");
             Console.Write("Input the string : ");
             str = Console.ReadLine();
@@ -176,6 +178,7 @@ namespace PatterninCSharp.LogicalProgram
                 if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
                 {
                     alp++;
+                    ch += str[i];
                 }
                 else if (str[i] >= '0' && str[i] <= '9')
                 {
