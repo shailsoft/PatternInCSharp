@@ -89,7 +89,7 @@ namespace PatterninCSharp.Program
             string res = string.Join(" ", strArr);
             Console.WriteLine(res);
         }
-        public static void FindDuplicate()
+        public static void FindDuplicateFromString()
         {
             string data = "i am a developer";
             var resw = (from obj in data select obj).GroupBy(x => x).First();
@@ -97,7 +97,6 @@ namespace PatterninCSharp.Program
 
 
             /// remove duplicate from string
-            /// 
             string inputString = "shailendrahh";
             //result              shailendr
             string resultString = string.Empty;
@@ -153,8 +152,6 @@ namespace PatterninCSharp.Program
             }
             Console.WriteLine("The reverse number is {0}", reverseNumber);
         }
-        //Write a program in C# Sharp to display the number in reverse order. Go to the editor Test Data:
-        //Input a number: 12345
         public static void ReverseNumberSecWay()
         {
             int num, r, reverse = 0, t;
